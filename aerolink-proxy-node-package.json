@@ -1,0 +1,13 @@
+{
+  "name": "aerolink-proxy-node",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node reverse proxy for Aerolink (bypass Cloudflare-WAF ECONNRESET). Deploy to a non-Cloudflare host (Railway / Fly.io / Render / VPS).",
+  "main": "aerolink-proxy-node.js",
+  "scripts": {
+    "start": "node aerolink-proxy-node.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
